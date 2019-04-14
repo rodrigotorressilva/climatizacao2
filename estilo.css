@@ -171,7 +171,7 @@ height: 150px;
 
 #divimgumidade {
 position: absolute;
-right: 240px;
+right: -99px;
 top: 387px;
 width: 300px;
 height: 206px;
@@ -182,7 +182,7 @@ background: url(https://rodrigotorressilva.github.io/climatizacao/humidity-symbo
 
 #divtexthum {
 position: absolute;
-right: 540px;
+right: 200px;
 top: 411px;
 width: 200px;
 height: 25px;
