@@ -1,0 +1,326 @@
+/* 
+CSS Projeto Automacao
+Sistema de Climatização Inteligente
+*/
+
+root {
+display: block;
+
+}
+
+body {
+margin: 0;
+padding: 0;
+
+}
+
+#wrapper {
+padding-top: 40px;
+position: relative;
+width: 530px;
+height: 600px;
+margin-right: auto;
+margin-top: 0;
+margin-left: auto;
+font-size: 30px;
+color: black;
+text-align: center;
+font-family: arial;
+
+}
+
+#div1 {
+position: absolute;
+right: 85px;
+top: 195px;
+border-radius: 25px;
+border: 2px solid #000000;
+width: 350px;
+height: 150px;
+
+}
+
+#divimgtemperatura {
+position: absolute;
+right: 210px;
+top: 220px;
+width: 300px;
+height: 206px;
+border: none;
+margin: auto;
+background: url(https://rodrigotorressilva.github.io/climatizacao/temperature-thermometer.jpg) no-repeat left top;
+
+}
+
+#divtexttemp {
+position: absolute;
+right: 230px;
+top: 251px;
+width: 120px;
+height: 25px;
+border-radius:6px;
+border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:28px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divtexttempmax {
+position: absolute;
+right: 300px;
+top: 310px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:20px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divtexttempmin {
+position: absolute;
+right: 170px;
+top: 310px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:20px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divlbltempmax {
+position: absolute;
+right: 319px;
+top: 301px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:18px;
+font-weight:bold;
+padding:-1px 10px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divlbltempmin {
+position: absolute;
+right: 188px;
+top: 301px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:18px;
+font-weight:bold;
+padding:-1px 10px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+
+#div2 {
+position: absolute;
+right: 85px;
+top: 355px;
+border-radius: 25px;
+border: 2px solid #000000;
+width: 350px;
+height: 150px;
+
+}
+
+#divimgumidade {
+position: absolute;
+right: 260px;
+top: 387px;
+width: 300px;
+height: 206px;
+border: none;
+background: url(https://rodrigotorressilva.github.io/climatizacao/humidity-symbol.jpg) no-repeat left top;
+
+}
+
+#divtexthum {
+position: absolute;
+right: 540px;
+top: 411px;
+width: 200px;
+height: 25px;
+border-radius:6px;
+border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:28px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divtexthummax {
+position: absolute;
+right: 300px;
+top: 470px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:20px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divtexthummin {
+position: absolute;
+right: 170px;
+top: 470px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:20px;
+font-weight:bold;
+padding:10px 20px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divlblhummax {
+position: absolute;
+right: 319px;
+top: 460px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:18px;
+font-weight:bold;
+padding:-1px 10px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#divlblhummin {
+position: absolute;
+right: 188px;
+top: 460px;
+width: 120px;
+height: 13px;
+border-radius:6px;
+//border:1px solid #dcdcdc;
+display:inline-block;
+color:#000000;
+font-family:arial;
+font-size:18px;
+font-weight:bold;
+padding:-1px 10px;
+text-decoration:none;
+text-shadow:0px 0px 0px #000000;
+width: 80px;
+text-align: center;
+
+}
+
+#botao {
+position: absolute;
+right: 230px;
+top: 540px;
+width: 125px;
+height: 256px;
+
+}
+
+.imgbotao {
+//-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+//-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+//box-shadow:inset 0px 0px 0px 0px #ffffff;
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+//background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+//filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+background-color:#ededed;
+//-moz-border-radius:6px;
+//-webkit-border-radius:6px;
+border-radius:6px;
+border:1px solid #dcdcdc;
+display:inline-block;
+color:#ffffff;
+font-family:arial;
+font-size:28px;
+font-weight:bold;
+padding:10px 35px;
+text-decoration:none;
+text-shadow:0px 0px 0px #ffffff;
+width: 120px;
+text-align:center;
+
+}
+
+.imgbotao:active {
+position:relative;
+top:1px;
+
+}
